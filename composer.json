@@ -1,0 +1,16 @@
+{
+    "name": "upsoftware/ecommerce",
+    "description": "Ecommerce System",
+    "autoload": {
+        "psr-4": {
+            "Upsoftware\\Ecommerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UpSoftware",
+            "email": "info@upsoftware.tech"
+        }
+    ],
+    "require": {}
+}
