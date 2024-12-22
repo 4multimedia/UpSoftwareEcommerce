@@ -16,6 +16,5 @@ class CategoryController extends Controller
             $items = EcommerceCategory::where('parent_id', '=', NULL)->with('children')->get();
             return CategoryResource::collection($items);
         }
-
     }
 }
